@@ -106,12 +106,12 @@ class Guahao(object):
         self.dutys = ""
         self.refresh_time = ''
 
-        self.login_url = "http://www.bjguahao.gov.cn/quicklogin.htm"
-        self.send_code_url = "http://www.bjguahao.gov.cn/v/sendorder.htm"
-        self.get_doctor_url = "http://www.bjguahao.gov.cn/dpt/partduty.htm"
-        self.confirm_url = "http://www.bjguahao.gov.cn/order/confirmV1.htm"
-        self.patient_id_url = "http://www.bjguahao.gov.cn/order/confirm/"
-        self.department_url = "http://www.bjguahao.gov.cn/dpt/appoint/"
+        self.login_url = "http://www.114yygh.com/quicklogin.htm"
+        self.send_code_url = "http://www.114yygh.com/v/sendorder.htm"
+        self.get_doctor_url = "http://www.114yygh.com/dpt/partduty.htm"
+        self.confirm_url = "http://www.114yygh.com/order/confirmV1.htm"
+        self.patient_id_url = "http://www.114yygh.com/order/confirm/"
+        self.department_url = "http://www.114yygh.com/dpt/appoint/"
 
         self.config = Config(config_path)                       # config对象
         if self.config.useIMessage == 'true':
